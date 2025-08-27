@@ -1,4 +1,4 @@
-# 🌟 Aarab Nishchal's Portfolio
+# 🌟 Abbu Nithees Reddy's Portfolio
 
 <div align="center">
 
@@ -10,7 +10,6 @@
 <kbd>My space on the web</kbd> showcasing modern web development with stunning dark aesthetics
 
 ![Portfolio Banner](https://img.shields.io/badge/Portfolio-Live%20Demo-9333ea?style=for-the-badge&logo=vercel&logoColor=white)
-[![MIT License](https://img.shields.io/badge/📄%20License-MIT-00D26A?style=for-the-badge)](https://opensource.org/license/mit)
 
 </div>
 
@@ -33,8 +32,8 @@
 
 A modern, responsive portfolio website built with **Next.js 15** and **React 19**, featuring stunning dark aesthetics and smooth animations. This project showcases advanced web development practices with a focus on performance, accessibility, and user experience.
 
-**🌐 Live Demo:** [aarab.vercel.app](https://aarab.vercel.app)
-**📱 GitHub:** [github.com/aarabii/An](https://github.com/aarabii/An)
+**🌐 Live Demo:** [abbunitheesreddy.vercel.app](https://abbunitheesreddy.vercel.app)
+**📱 GitHub:** [github.com/abbunitheesreddy/Abbu_Nithees_Resume](https://github.com/abbunitheesreddy/Abbu_Nithees_Resume)
 
 ## ✨ Features
 
@@ -129,8 +128,8 @@ A modern, responsive portfolio website built with **Next.js 15** and **React 19*
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/aarabii/An.git
-   cd An
+   git clone https://github.com/AbbuNitheesReddy/Portfolio.git
+   cd Portfolio
    ```
 
 2. **Install dependencies**
@@ -212,13 +211,12 @@ export const selfData = {
 
 <div align="center">
 
-| Platform         | Username                                                    | Link                         |
-| ---------------- | ----------------------------------------------------------- | ---------------------------- |
-| 🐙 **GitHub**    | [@aarabii](https://github.com/aarabii)                      | `https://github.com/aarabii` |
-| 💼 **LinkedIn**  | [Aarab Nishchal](https://linkedin.com/in/aarab-nishchal)    | Professional Network         |
-| 📸 **Instagram** | [@aarab.ii](https://instagram.com/aarab.ii)                 | Creative Updates             |
-| 🐦 **Twitter**   | [@aarab_ii](https://twitter.com/aarab_ii)                   | Tech Thoughts                |
-| 📧 **Email**     | [aarab.nishchal@gmail.com](mailto:aarab.nishchal@gmail.com) | Direct Contact               |
+| Platform         | Username                                                             | Link                                      |
+| ---------------- | -------------------------------------------------------------------- | ----------------------------------------- |
+| 🐙 **GitHub**    | [@AbbuNitheesReddy](https://github.com/AbbuNitheesReddy)             | `https://github.com/AbbuNitheesReddy`    |
+| 💼 **LinkedIn**  | [Abbu Nithees Reddy](https://linkedin.com/in/abbunitheesreddy)       | Professional Network                      |
+| 📸 **Instagram** | [@abbunitheesreddy](https://instagram.com/abbunitheesreddy)          | Creative Updates                          |
+| 📧 **Email**     | [nithish.7098@gmail.com](mailto:nithish.7098@gmail.com)              | Direct Contact                            |
 
 </div>
 
@@ -226,10 +224,10 @@ export const selfData = {
 
 <div align="center">
 
-**Built with ❤️ by [Aarab Nishchal](https://aarab.vercel.app)**
+**Built with ❤️ by [Abbu Nithees Reddy](https://abbunitheesreddy.vercel.app)**
 
-_Student Developer | Chief Problem Solver | Solution Sorcerer_
+_AI & ML Engineer | Web Developer | Cybersecurity Enthusiast_
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-aarab.vercel.app-9333ea?style=for-the-badge)](https://aarab.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-abbunitheesreddy.vercel.app-9333ea?style=for-the-badge)](https://abbunitheesreddy.vercel.app)
 
 </div>

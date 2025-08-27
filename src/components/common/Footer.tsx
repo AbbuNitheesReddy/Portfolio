@@ -93,7 +93,7 @@ export const Footer = () => {
             <h3
               className={`${quentine.className} text-2xl font-semibold text-primary`}
             >
-              Aarab Nishchal
+              Abbu Nithees Reddy
             </h3>
           </div>
 
@@ -124,10 +124,10 @@ export const Footer = () => {
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               className="text-primary/80 hover:text-primary"
             >
-              Aarab Nishchal
+              Abbu Nithees Reddy
             </button>
           </p>
-          <span>Licensed under MIT</span>
+          <span></span>
         </div>
       </div>
 

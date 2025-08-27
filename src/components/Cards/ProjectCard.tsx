@@ -12,8 +12,7 @@ interface ProjectCardProps {
   index: number;
   title: string;
   desc: string;
-  github: string;
-  demo?: string;
+  impact: string;
   tech: string[];
 }
 
@@ -21,8 +20,7 @@ export const ProjectCard: FC<ProjectCardProps> = ({
   index,
   title,
   desc,
-  github,
-  demo,
+  impact,
   tech,
 }) => {
   const ref = useRef(null);
@@ -108,6 +106,19 @@ export const ProjectCard: FC<ProjectCardProps> = ({
             {desc}
           </motion.p>
 
+          {/* Impact */}
+          {impact && (
+            <motion.div
+              className="mb-6 p-3 rounded-lg bg-primary/5 border border-primary/10"
+              initial={{ opacity: 0, y: 10 }}
+              animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
+              transition={{ duration: 0.5, delay: index * 0.1 + 0.35 }}
+            >
+              <p className="text-xs font-medium text-primary mb-1">Impact:</p>
+              <p className="text-sm">{impact}</p>
+            </motion.div>
+          )}
+
           {/* Tech Stack */}
           <motion.div
             className="flex flex-wrap gap-2 mb-6"
@@ -148,55 +159,8 @@ export const ProjectCard: FC<ProjectCardProps> = ({
             ))}
           </motion.div>
 
-          {/* Action Buttons */}
-          <motion.div
-            className="flex space-x-3 mt-auto"
-            initial={{ opacity: 0, y: 20 }}
-            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-            transition={{ duration: 0.5, delay: index * 0.1 + 0.6 }}
-          >
-            <motion.div
-              className="flex-1"
-              whileHover={{ scale: 1.02 }}
-              whileTap={{ scale: 0.98 }}
-            >
-              <Button
-                variant="outline"
-                size="sm"
-                className="w-full transition-all duration-300 hover:shadow-lg font-mono text-xs"
-                style={{
-                  backgroundColor: "hsl(var(--glass-bg-light))",
-                  borderColor: "hsl(var(--glass-border))",
-                  color: "hsl(var(--foreground))",
-                  backdropFilter: "blur(8px)",
-                }}
-                asChild
-              >
-                <a href={github} target="_blank" rel="noopener noreferrer">
-                  <FaGithub className="w-4 h-4 mr-2" />
-                  Code
-                </a>
-              </Button>
-            </motion.div>
-            {demo && (
-              <motion.div
-                className="flex-1"
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-              >
-                <Button
-                  size="sm"
-                  className="w-full bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 transition-all duration-300 hover:shadow-lg font-mono text-xs"
-                  asChild
-                >
-                  <Link href={demo} target="_blank" rel="noopener noreferrer">
-                    <FiExternalLink className="w-4 h-4 mr-2" />
-                    Demo
-                  </Link>
-                </Button>
-              </motion.div>
-            )}
-          </motion.div>
+          {/* Spacer to push content up */}
+          <div className="mt-auto"></div>
         </div>
       </Card>
     </motion.div>

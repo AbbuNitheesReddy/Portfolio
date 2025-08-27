@@ -117,10 +117,16 @@ export class PDFErrorBoundary extends Component<Props, State> {
                 </div>
               </motion.a>
 
-              <motion.a
-                href={this.props.pdfUrl}
-                download="Aarab_Nishchal_Resume.pdf"
-                className="group relative px-6 py-3 rounded-xl overflow-hidden transition-all duration-300 border border-secondary/30"
+              <motion.button
+                onClick={() => {
+                  const link = document.createElement('a');
+                  link.href = this.props.pdfUrl;
+                  link.download = 'Abbu_Nithees_Resume.pdf';
+                  document.body.appendChild(link);
+                  link.click();
+                  document.body.removeChild(link);
+                }}
+                className="group relative px-6 py-3 rounded-xl overflow-hidden transition-all duration-300 border border-secondary/30 w-full text-left"
                 style={{
                   background: "hsl(var(--card) / 0.5)",
                   backdropFilter: "blur(8px)",
@@ -136,7 +142,7 @@ export class PDFErrorBoundary extends Component<Props, State> {
                   <HiDownload className="w-5 h-5" />
                   Download PDF
                 </div>
-              </motion.a>
+              </motion.button>
             </motion.div>
 
             <motion.button

@@ -25,7 +25,7 @@ export function generatePersonStructuredData() {
       `https://twitter.com/${selfData.socials_username.twitter}`,
       `https://instagram.com/${selfData.socials_username.instagram}`,
     ],
-    url: "https://aarab.vercel.app",
+    url: "https://abbunitheesreddy.vercel.app",
     description: selfData.bio,
   };
 }
@@ -34,10 +34,10 @@ export function generateWebsiteStructuredData() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Aarab Nishchal - Portfolio",
-    url: "https://aarab.vercel.app",
+    name: "Abbu Nithees Reddy - Portfolio",
+    url: "https://abbunitheesreddy.vercel.app",
     description:
-      "Aarab Nishchal's portfolio featuring projects in React, Next.js, and modern web development",
+      "Abbu Nithees Reddy's portfolio featuring projects in React, Next.js, and modern web development",
     author: {
       "@type": "Person",
       name: selfData.name,
@@ -60,8 +60,8 @@ export function generateOrganizationStructuredData() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: selfData.name,
-    url: "https://aarab.vercel.app",
-    logo: "https://aarab.vercel.app/images/logo.png",
+    url: "https://abbunitheesreddy.vercel.app",
+    logo: "https://abbunitheesreddy.vercel.app/images/logo.png",
     description: selfData.bio,
     founder: {
       "@type": "Person",
@@ -80,10 +80,10 @@ export function generateResumeStructuredData() {
   return {
     "@context": "https://schema.org",
     "@type": "DigitalDocument",
-    name: "Aarab Nishchal Resume",
+    name: "AbbuNitheesReddy Resume",
     description:
-      "Professional resume of Aarab Nishchal - Student Developer specializing in Full-Stack Web Development",
-    url: "https://aarab.vercel.app/resume",
+      "Professional resume of Abbu Nithees Reddy - AI & ML Engineer",
+    url: "https://abbunitheesreddy.vercel.app/resume",
     author: {
       "@type": "Person",
       name: selfData.name,
@@ -106,19 +106,18 @@ export function generateResumeStructuredData() {
     },
     dateModified: new Date().toISOString(),
     fileFormat: "application/pdf",
-    contentUrl: "https://aarab.vercel.app/docs/MyResume.pdf",
-    downloadUrl: "https://aarab.vercel.app/docs/MyResume.pdf",
+    contentUrl: "https://abbunitheesreddy.vercel.app/docs/MyResume.pdf",
+    downloadUrl: "https://abbunitheesreddy.vercel.app/docs/MyResume.pdf",
     keywords: [
-      "Software Developer",
-      "Full Stack Developer",
-      "React Developer",
-      "Next.js Developer",
-      "JavaScript Developer",
-      "TypeScript Developer",
+      "AI & ML Engineer",
+      "Web Developer",
+      "Designer",
+      "Cybersecurity Enthusiast",
+      "SOC Analyst",
       "Student Developer",
       "Computer Science",
-      "KIIT University",
-      "Bhubaneswar",
+      "Hyderabad",
+      "Telangana",
       "India",
     ],
   };

@@ -1,20 +1,21 @@
 export const keywords = [
-  "Aarab Nishchal",
-  "Aarab",
-  "Nishchal",
-  "aarabii", // GitHub username
-  "aarab.vercel.app", // Portfolio URL
-  "aarab.nishchal@gmail.com", // Email for search
-  "linkedin/in/aarab-nishchal", // LinkedIn profile
-  "Aarab Nishchal portfolio",
-  "Aarab Nishchal developer",
-  "Aarab Nishchal software engineer",
-  "Aarab Nishchal web developer",
-  "Aarab Nishchal AI developer",
-  "Aarab Nishchal full-stack developer",
-  "Aarab Nishchal projects",
-  "Aarab Nishchal resume",
-  "Aarab Nishchal contact",
+  "Abbu Nithees Reddy",
+  "Abbu",
+  "Nithees Reddy",
+  "AbbuNitheesReddy", // GitHub username
+  "abbunitheesreddy.vercel.app", // Portfolio URL
+  "nithish.7098@gmail.com", // Email for search
+  "linkedin/in/abbunitheesreddy", // LinkedIn profile
+  "Abbu Nithees Reddy portfolio",
+  "Abbu Nithees Reddy developer",
+  "Abbu Nithees Reddy software engineer",
+  "Abbu Nithees Reddy web developer",
+  "Abbu Nithees Reddy AI & ML Engineer",
+  "Abbu Nithees Reddy Cybersecurity Analyst",
+  "Abbu Nithees Reddy full-stack developer",
+  "Abbu Nithees Reddy projects",
+  "Abbu Nithees Reddy resume",
+  "Abbu Nithees Reddy contact",
 
   "student developer portfolio",
   "web developer Bhubaneswar",

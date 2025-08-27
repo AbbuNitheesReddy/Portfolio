@@ -1,19 +1,21 @@
 export const resumeKeywords = [
   // Personal Branding
-  "Aarab Nishchal",
-  "Aarab Nishchal resume",
-  "Aarab Nishchal CV",
+  "Abbu Nithees Reddy",
+  "Abbu Nithees Reddy resume",
+  "Abbu Nithees Reddy CV",
   "Software Developer",
   "Full Stack Developer",
   "Frontend Developer",
   "Backend Developer",
+  "AI & ML Engineer",
   "Web Developer",
   "Student Developer",
   "Junior Developer",
   "Entry Level Developer",
+  "Cybersecurity Analyst",
   "Computer Science Graduate",
   "B.Tech Computer Science",
-  "KIIT University",
+  "SPSU University",
 
   // Core Programming Languages
   "JavaScript",

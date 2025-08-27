@@ -89,8 +89,7 @@ export const Projects = () => {
               index={index}
               title={proj.name}
               desc={proj.description}
-              github={proj.github_link}
-              demo={proj.demo}
+              impact={proj.impact}
               tech={proj.tech}
             />
           ))}
