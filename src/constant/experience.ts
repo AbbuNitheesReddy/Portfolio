@@ -27,8 +27,7 @@ export const experienceData = [
       "Hands-on use of penetration testing and monitoring tools to identify vulnerabilities and mitigate threats.",
     ],
     company: "Stag Innovations Pvt. Ltd.",
-    technologies: ["Python", "Linux", "Network Security", "Bug Bounty", "Splunk", "Vulnerablity Assessment & Penetration Testing",
-    ],
+    technologies: ["Python", "Linux", "Bug Bounty", "Splunk", "VAPT", "Wireshark", "SIEM Tools",],
     url: "https://staginvs.com/",
   },
 ];

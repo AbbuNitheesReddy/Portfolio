@@ -2,9 +2,8 @@ import Link from "next/link";
 import { IconType } from "react-icons";
 import { motion } from "motion/react";
 
-import { SiLeetcode } from "react-icons/si";
-import { PiTelegramLogo } from "react-icons/pi";
-import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa6";
+import { Mail } from "lucide-react";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
 
 import { selfData } from "@/constant";
 
@@ -19,6 +18,11 @@ export const ContactSocials = () => {
       Icon: FaLinkedinIn,
       link: `https://www.linkedin.com/in/${selfData.socials_username.linkedin}`,
       initial: 10,
+    },
+    { 
+      Icon: Mail, 
+      link: `mailto:${selfData.email}`, 
+      initial: 0 
     },
   ];
 

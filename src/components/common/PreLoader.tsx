@@ -1,6 +1,6 @@
 "use client";
 
-import { nasalization } from "@/app/fonts";
+import { nasalization, quentine } from "@/app/fonts";
 import { selfData } from "@/constant";
 import { motion, AnimatePresence } from "framer-motion";
 import { FC, useState, useEffect } from "react";
@@ -17,7 +17,7 @@ const H1_Component: FC<H1ComponentProps> = ({ name, y_initialValue }) => {
       initial={{ y: y_initialValue, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 1 }}
-      className={`text-slate-200 text-4xl ${nasalization.className}`}
+      className={`text-slate-200 text-4xl ${quentine.className}`}
     >
       {name}
     </motion.h1>

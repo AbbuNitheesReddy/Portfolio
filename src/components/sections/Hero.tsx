@@ -7,7 +7,7 @@ import { useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { selfData } from "@/constant";
 
-import { quentine, mono } from "@/app/fonts";
+import { quentine, mono, nasalization } from "@/app/fonts";
 
 export const Hero = () => {
   const ref = useRef(null);
@@ -75,8 +75,8 @@ export const Hero = () => {
           transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
         >
           <div className="space-y-6">
-            <motion.h1
-              className={`${quentine.className} text-5xl md:text-7xl lg:text-8xl font-bold`}
+            <motion.h1 // To change the font of Name to cursive use "quentine"
+              className={`${nasalization.className} text-5xl md:text-7xl lg:text-6xl font-bold`}
               style={{ color: "hsl(var(--primary))" }}
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}

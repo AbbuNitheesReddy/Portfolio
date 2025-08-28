@@ -5,9 +5,9 @@
   <!-- Logo -->
   <img src="public/images/logo.svg" alt="Portfolio Logo" width="120" height="120">
 
-### ✨ Student Developer | Chief Problem Solver | Solution Sorcerer
+### ✨ AI & ML Engineer | Cybersecurity Analyst | Full Stack Developer
 
-<kbd>My space on the web</kbd> showcasing modern web development with stunning dark aesthetics
+<kbd>My space on the web</kbd> showcasing modern Portfolio with stunning dark aesthetics
 
 ![Portfolio Banner](https://img.shields.io/badge/Portfolio-Live%20Demo-9333ea?style=for-the-badge&logo=vercel&logoColor=white)
 
@@ -33,7 +33,7 @@
 A modern, responsive portfolio website built with **Next.js 15** and **React 19**, featuring stunning dark aesthetics and smooth animations. This project showcases advanced web development practices with a focus on performance, accessibility, and user experience.
 
 **🌐 Live Demo:** [abbunitheesreddy.vercel.app](https://abbunitheesreddy.vercel.app)
-**📱 GitHub:** [github.com/abbunitheesreddy/Abbu_Nithees_Resume](https://github.com/abbunitheesreddy/Abbu_Nithees_Resume)
+**📱 GitHub:** [github.com/abbunitheesreddy/Portfolio](https://github.com/abbunitheesreddy/Portfolio)
 
 ## ✨ Features
 
@@ -116,97 +116,6 @@ A modern, responsive portfolio website built with **Next.js 15** and **React 19*
 | **Neon Glow**      | `box-shadow: 0 0 20px purple` | Purple accent glows      |
 | **Shimmer**        | `linear-gradient animation`   | Subtle shine effects     |
 
-## 🚀 Quick Start
-
-### **Prerequisites**
-
-- Node.js 18+
-- npm/yarn/pnpm
-
-### **Installation**
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/AbbuNitheesReddy/Portfolio.git
-   cd Portfolio
-   ```
-
-2. **Install dependencies**
-
-   ```bash
-   npm install
-   ```
-
-3. **Environment setup**
-
-   ```bash
-   cp .env.example .env.local
-   ```
-
-4. **Start development server**
-
-   ```bash
-   npm run dev
-   ```
-
-5. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000)
-
-### **Build Commands**
-
-| Command         | Description                             |
-| --------------- | --------------------------------------- |
-| `npm run dev`   | Start development server with Turbopack |
-| `npm run build` | Build for production                    |
-| `npm run start` | Start production server                 |
-| `npm run lint`  | Run ESLint checks                       |
-
-## ⚙️ Customization
-
-### **Personal Information**
-
-```typescript
-// src/constant/self.ts
-export const selfData = {
-  name: "Your Name",
-  jobTitle: "Your Title",
-  email: "your.email@domain.com",
-  // ... update all personal details
-};
-```
-
-### **Projects & Experience**
-
-| File                          | Purpose                |
-| ----------------------------- | ---------------------- |
-| `src/constant/projects.ts`    | Your project portfolio |
-| `src/constant/experience.ts`  | Work experience data   |
-| `src/constant/skillsData.tsx` | Technical skills       |
-
-### **Assets**
-
-| Asset Type          | Location                   | Description         |
-| ------------------- | -------------------------- | ------------------- |
-| **Logo**            | `public/images/logo.svg`   | Main logo           |
-| **Profile Picture** | `src/assets/images/me.png` | About section image |
-| **Resume**          | `public/docs/`             | PDF resume file     |
-| **Fonts**           | `src/assets/fonts/`        | Custom font files   |
-
-### **Styling**
-
-- **Colors:** Modify CSS custom properties in `src/app/globals.css`
-- **Fonts:** Update font configurations in `src/app/fonts.ts`
-- **Components:** Customize UI components in `src/components/ui/`
-
-## 📸 Screenshots
-
-> 🌟 **Dark Luxury Theme** - Experience the stunning dark aesthetics with purple accents
->
-> 🚀 **Lightning Fast** - Next.js 15 with Turbopack for optimal performance
->
-> 📱 **Fully Responsive** - Perfect on every device and screen size
-
 ## 🔗 Connect
 
 <div align="center">
@@ -215,7 +124,6 @@ export const selfData = {
 | ---------------- | -------------------------------------------------------------------- | ----------------------------------------- |
 | 🐙 **GitHub**    | [@AbbuNitheesReddy](https://github.com/AbbuNitheesReddy)             | `https://github.com/AbbuNitheesReddy`    |
 | 💼 **LinkedIn**  | [Abbu Nithees Reddy](https://linkedin.com/in/abbunitheesreddy)       | Professional Network                      |
-| 📸 **Instagram** | [@abbunitheesreddy](https://instagram.com/abbunitheesreddy)          | Creative Updates                          |
 | 📧 **Email**     | [nithish.7098@gmail.com](mailto:nithish.7098@gmail.com)              | Direct Contact                            |
 
 </div>
